@@ -28,7 +28,7 @@ export default class About extends Component{
               <i className="devicon-github-plain-wordmark"></i>
               <i className="devicon-react-original-wordmark"></i>
             </div>
-            <a href="https://www.dropbox.com/s/qh3cszq6m8zqzzg/Lucas_Brizolla_Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.dropbox.com/s/c91h85mg73v5u2x/Lucas_Brizolla_Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
               <button className='btn'>Download Resume</button>
             </a>
           </div>
