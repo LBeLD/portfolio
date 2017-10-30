@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  overflow-x: hidden; }
+
+.btn {
+  background-color: #17181C;
+  color: #fff; }
+  .btn:hover {
+    background-color: #868686; }
+
+nav, .fixed-top {
+  padding-top: 0; }
+
+.navbar {
+  background-color: rgba(23, 24, 28, 0.5) !important; }
+  .navbar a {
+    color: #fff !important;
+    text-transform: uppercase;
+    opacity: 0.8; }
+    .navbar a:hover {
+      opacity: 1; }
+  .navbar img {
+    width: 30px;
+    height: 30px; }
+  .navbar .navbar-collapse {
+    text-align: center; }
+
+button .fa-bars, .fa-times {
+  color: #fff !important;
+  opacity: 0.8;
+  cursor: pointer; }
+  button .fa-bars:hover, .fa-times:hover {
+    opacity: 1; }
+
+#header {
+  height: 100vh;
+  background: url(https://res.cloudinary.com/dioukzx4w/image/upload/v1507654397/PortfolioPage/jared-brashier-252015.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.information {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .information h1 {
+    text-align: center; }
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .social a {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 10px;
+    color: #fff;
+    opacity: 0.8; }
+    .social a:hover {
+      opacity: 1; }
+
+.fa-angle-double-down {
+  color: #fff;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  animation: 3s arrow infinite ease;
+  cursor: pointer !important; }
+
+@keyframes arrow {
+  0%, 100% {
+    opacity: 1; }
+  50% {
+    opacity: .3; } }
+
+.Typist {
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px; }
+
+.Typist .Cursor {
+  display: inline-block; }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#about {
+  background-color: #fff;
+  text-align: center; }
+  #about h1 {
+    text-transform: uppercase;
+    padding-top: 40px; }
+  #about button {
+    margin: 20px auto;
+    display: block;
+    cursor: pointer; }
+  #about .text {
+    margin-top: 20px;
+    text-align: justify; }
+    #about .text p {
+      margin: 5px; }
+    #about .text a {
+      text-decoration: none; }
+  #about .icons {
+    text-align: center;
+    margin-top: 20px; }
+    #about .icons i {
+      font-size: 28px;
+      padding: 2px; }
+  #about img {
+    margin-top: 20px;
+    width: 300px;
+    height: 250px; }
+
+#projects {
+  background-color: #F5F5F5; }
+  #projects h1 {
+    padding-top: 40px;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase; }
+  #projects .card {
+    width: 20rem;
+    margin: 10px auto;
+    border: none; }
+    #projects .card .card-img-top {
+      background-color: #F5F5F5;
+      padding: 20px 5px 5px 5px; }
+    #projects .card .card-body {
+      background-color: #F5F5F5;
+      padding: 10px 0 0 0;
+      text-align: center;
+      position: relative; }
+      #projects .card .card-body .links {
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+        margin: auto;
+        left: 0;
+        right: 0; }
+      #projects .card .card-body h4 {
+        text-align: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1em; }
+      #projects .card .card-body p {
+        text-align: left;
+        padding-bottom: 40px; }
+      #projects .card .card-body a {
+        text-decoration: none !important;
+        color: black; }
+        #projects .card .card-body a:hover {
+          font-weight: bold; }
+
+#contact {
+  background-color: #fff; }
+  #contact h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  #contact span {
+    font-weight: bold;
+    color: #ee5d58; }
+  #contact .form-control:focus {
+    background: #fff;
+    box-shadow: none;
+    border-bottom: 1px solid black; }
+  #contact input, #contact textarea {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid black; }
+  #contact button {
+    margin-bottom: 20px;
+    cursor: pointer; }
+  #contact #sucess {
+    color: #175918;
+    font-weight: bold; }
+  #contact #error {
+    color: #ee5d58;
+    font-weight: bold; }
+
+footer {
+  height: auto;
+  text-align: center;
+  background-color: #17181C;
+  color: #fff;
+  padding-bottom: 10px; }
+  footer p {
+    padding: 10px;
+    margin: 0; }
+  footer .fa {
+    padding-left: 10px; }
+  footer a {
+    color: #fff; }
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+  outline: none !important; }
+
+@media (max-width: 576px) {
+  .navbar-collapse {
+    background-color: rgba(50, 46, 43, 0.8); }
+    .navbar-collapse a:hover {
+      background-color: #555; }
+  .social a {
+    margin-bottom: 50px; } }
+
+@media (min-width: 1000px) {
+  #about {
+    padding-bottom: 0; }
+  .aboutSection {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px; }
+  .text {
+    text-align: justify;
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 20px; }
+    .text .icons i {
+      padding: 12px !important;
+      font-size: 45px !important; }
+  .photo {
+    align-self: center;
+    grid-column: 2/3;
+    align-self: end; }
+  #contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px; }
+  #contact .nameInput {
+    grid-column: 1/2; }
+  #contact .emailInput {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  #contact .phoneInput {
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  #contact .messageInput {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    align-self: start; }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between; }
+    footer .footerIcons {
+      padding: 15px; }
+    footer a:hover {
+      color: #626060; } }

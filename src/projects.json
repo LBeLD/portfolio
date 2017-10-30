@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "title":"Movie Search",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508417936/PortfolioPage/MovieSearch.png",
+      "about":"A responsive React app for searching movies.",
+      "liveUrl":"https://lbeld.github.io/React_MovieSearch/",
+      "gitCode":"https://github.com/LBeLD/React_MovieSearch"
+
+    },
+    {
+      "title":"Recipe Box",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508424909/PortfolioPage/RecipeBox.png",
+      "about":"React App using local storage to save your favorite recipes.",
+      "liveUrl":"https://lbeld.github.io/FCC_RecipeBox/",
+      "gitCode": "https://github.com/LBeLD/FCC_RecipeBox"
+    },
+    {
+      "title":"Book Explorer",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508425797/PortfolioPage/BookExplorer.png",
+      "about":"React App that search for books using Google Books API",
+      "liveUrl":"https://lbeld.github.io/React_BookSearch/",
+      "gitCode":"https://github.com/LBeLD/React_BookSearch"
+    },
+    {
+      "title":"Todo App",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508428819/PortfolioPage/TodoApp.png",
+      "about":"React Todo app that creates a list of tasks with responsible, description and priority.",
+      "liveUrl":"https://lbeld.github.io/React_TodoApp/",
+      "gitCode":"https://github.com/LBeLD/React_TodoApp"
+    },
+    {
+      "title":"Local Weather",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508429067/PortfolioPage/LocalWeather.png",
+      "about":"jQuery app that shows user's Local Weather",
+      "liveUrl":"https://lbeld.github.io/FCC_LocalWeather/",
+      "gitCode":"https://github.com/LBeLD/FCC_LocalWeather"
+    },
+    {
+      "title":"Simon Game",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508429385/PortfolioPage/Simon.png",
+      "about":"A Simon Game coded with jQuery",
+      "liveUrl":"https://lbeld.github.io/FCC_SimonGame/",
+      "gitCode":"https://github.com/LBeLD/FCC_SimonGame"
+    },
+    {
+      "title":"Tic Tac Toe",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508429857/PortfolioPage/TicTacToe.png",
+      "about":"A Tic Tac Toe game coded with jQuery",
+      "liveUrl":"https://lbeld.github.io/FCC_TicTacToe/",
+      "gitCode":"https://github.com/LBeLD/FCC_TicTacToe"
+    },
+    {
+      "title":"Wikepedia Viewer",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508430074/PortfolioPage/WikipediaViewer.png",
+      "about":"jQuery app that uses Wikipedia API",
+      "liveUrl":"https://lbeld.github.io/Fcc_WikipediaViewer/",
+      "gitCode":"https://github.com/LBeLD/Fcc_WikipediaViewer"
+    },
+    {
+      "title":"Maths Game",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508430640/PortfolioPage/MathsGame.png",
+      "about":"A Vanilla JavaScript maths game to test your calculation skills",
+      "liveUrl":"https://lbeld.github.io/maths_game/",
+      "gitCode":"https://github.com/LBeLD/maths_game"
+    },
+    {
+      "title":"JavaScript Calculator",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508431886/PortfolioPage/JavaScriptCalculator.png",
+      "about":"A calculator coded with jQuery",
+      "liveUrl":"https://lbeld.github.io/FCC_JavaScriptCalculator/",
+      "gitCode":"https://github.com/LBeLD/FCC_JavaScriptCalculator"
+    },
+    {
+      "title":"Twitch Streamers",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508432319/PortfolioPage/Twitch.png",
+      "about":"jQuery app that uses Twitch API to show the status of streamers",
+      "liveUrl":"https://lbeld.github.io/FCC_Twitch",
+      "gitCode":"https://github.com/LBeLD/FCC_Twitch"
+    },
+    {
+      "title":"Pomodoro Clock",
+      "img":"https://res.cloudinary.com/dioukzx4w/image/upload/v1508438403/PortfolioPage/PomodoroClock.png",
+      "about":"A time management method called Pomodoro coded with jQuery",
+      "liveUrl":"https://lbeld.github.io/FCC_PomodoroClock/",
+      "gitCode":"https://github.com/LBeLD/FCC_PomodoroClock"
+    }
+
+  ]
+}

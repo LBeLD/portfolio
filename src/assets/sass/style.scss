@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+// ==== COLORS ====
+
+$lightGray: #F5F5F5;
+$darkGray: #17181C;
+$white:#fff;
+
+// ==== App ====
+body{
+  // font-family: Oswald !important;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  overflow-x: hidden;
+}
+
+.btn{
+  background-color: $darkGray;
+  color:$white;
+    &:hover{
+      background-color: #868686;
+    }
+}
+
+// === NAVBAR ===
+ nav, .fixed-top{
+   padding-top: 0;
+ }
+
+.navbar{
+  background-color: rgba(#17181C, 0.5) !important;
+  a{
+    color:$white !important;
+    text-transform: uppercase;
+    opacity: 0.8;
+     &:hover{
+       opacity: 1;
+     }
+
+  }
+  img{
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+}
+
+button .fa-bars, .fa-times{
+  color:$white !important;
+  opacity: 0.8;
+  cursor: pointer;
+    &:hover{
+      opacity: 1;
+    }
+}
+ // ==== HEADER/BANNER ====
+
+#header{
+  height: 100vh;
+  background: url(https://res.cloudinary.com/dioukzx4w/image/upload/v1507654397/PortfolioPage/jared-brashier-252015.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.information{
+  height: 100vh;
+  color:$white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+    h1{
+      text-align: center;
+    }
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    a{
+      cursor: pointer;
+      margin-top: 50px;
+      margin-bottom: 200px;
+      padding: 10px;
+      color:$white;
+      opacity: 0.8;
+
+      &:hover{
+        opacity: 1;
+      }
+    }
+}
+
+
+.fa-angle-double-down{
+  color:$white;
+  margin-left:50%;
+  margin-bottom: 50px;
+  animation: 3s arrow infinite ease;
+  cursor: pointer !important;
+}
+
+@keyframes arrow {
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: .3;
+  }
+}
+
+// ==== TYPIST STYLES ===
+.Typist{
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px;
+
+}
+.Typist .Cursor {
+  display: inline-block;
+
+  &--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+    @keyframes blink {
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+    }
+  }
+}
+
+
+// ==== ABOUT ME =====
+#about{
+  background-color: $white;
+  text-align: center;
+    h1{
+      text-transform: uppercase;
+      padding-top: 40px;
+    }
+    button{
+      margin:20px auto;
+      display: block;
+      cursor: pointer;
+    }
+    .text{
+      margin-top:20px;
+      text-align: justify;
+        p{
+          margin: 5px;
+        }
+        a{
+          text-decoration: none;
+        }
+    }
+    .icons{
+      text-align: center;
+      margin-top: 20px;
+        i{
+          font-size: 28px;
+          padding: 2px;
+        }
+    }
+    img{
+      margin-top: 20px;
+      width: 300px;
+      height: 250px;
+    }
+}
+
+// === PROJECTS ===
+
+#projects{
+  background-color: $lightGray;
+  h1{
+    padding-top:40px;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .card{
+    width: 20rem;
+    margin: 10px auto;
+    border: none;
+      .card-img-top{
+        background-color: $lightGray;
+        padding:20px 5px 5px 5px;
+      }
+      .card-body{
+        background-color: $lightGray;
+        padding: 10px 0 0 0;
+        text-align: center;
+        position: relative;
+          .links{
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+            margin: auto;
+            left: 0;
+            right: 0;
+
+          }
+        h4{
+          text-align: left;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 1em;
+        }
+        p{
+          text-align: left;
+          padding-bottom: 40px;
+        }
+        a{
+          text-decoration: none !important;
+          color:black;
+          &:hover{
+            font-weight: bold;
+          }
+        }
+      }
+  }
+}
+
+// === CONTACT ====
+#contact{
+  background-color: $white;
+  h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  span{
+    font-weight: bold;
+    color:#ee5d58;
+  }
+  .form-control:focus {
+  background:$white;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+}
+  input, textarea{
+    background-color: $white;
+    border:none;
+    border-bottom: 1px solid black;
+  }
+  button{
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  #sucess{
+    color:#175918;
+    font-weight: bold;
+  }
+  #error{
+    color:#ee5d58;
+    font-weight: bold;
+
+  }
+}
+
+// === FOOTER ===
+
+footer{
+  height: auto;
+  text-align: center;
+  background-color: $darkGray;
+  color:$white;
+  padding-bottom: 10px;
+    p{
+      padding: 10px;
+      margin: 0;
+    }
+    .fa{
+      padding-left: 10px;
+    }
+    a{
+    color:$white;
+    }
+}
+// === BUTTONS RESET (OVERRID BOOTSTRAP) ====
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover{
+    outline:none !important;
+}
+
+
+// ===MEDIA QUERIES===
+@media (max-width: 576px) {
+  .navbar-collapse{
+    background-color: rgba(50, 46, 43, 0.8) ;
+      a:hover{
+        background-color: #555;
+      }
+  }
+  .social{
+    a{
+      margin-bottom: 50px;
+    }
+  }
+}
+
+
+@media (min-width:1000px){
+  #about{
+    padding-bottom: 0;
+  }
+  .aboutSection{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap:5px;
+  }
+
+  .text{
+    text-align: justify;
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 20px;
+      .icons i {
+        padding: 12px !important;
+        font-size: 45px !important;
+      }
+  }
+  .photo{
+    align-self: center;
+    grid-column: 2/3;
+    align-self: end;
+  }
+
+
+  #contact{
+    form{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 40px;
+    }
+    .nameInput{
+      grid-column: 1/2;
+    }
+    .emailInput{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .phoneInput{
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .messageInput{
+      grid-column: 2/3;
+      grid-row:1/4;
+      align-self: start;
+    }
+
+  }
+
+  footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+     .footerIcons{
+       padding:15px;
+     }
+     a:hover{
+       color:#626060;
+     }
+  }
+}
